@@ -1,4 +1,4 @@
-// let num = "33"
+let num = "33"
 // let convertnum = Number(num)
 // console.log(convertnum)
 // console.log(typeof convertnum)
@@ -9,6 +9,7 @@
 // let convertnum = Number(num)
 // console.log(convertnum)
 // console.log(typeof convertnum)
+
 // this type is number but it will give a output is NaN because it is not a number 
 
 
@@ -24,12 +25,14 @@
 // let booleanValue = Boolean(boolean)
 // console.log(booleanValue);
 // console.log(typeof booleanValue);
+
 // it will give a typeof is boolean because it convert the value in boolean and its output is true
 
 // let boolean = "1"
 // let booleanValue = Boolean(boolean)
 // console.log(booleanValue);
 // console.log(typeof booleanValue)
+
 // it also give the sameoutput
 // but when we convert the other value in boolean except 0  then it will show always true
 
@@ -70,7 +73,7 @@ num1 = num2 = num3 = 2 + 2
 
 let gameCounter = 100
 ++gameCounter;
-console.log(gameCounter);
+// console.log(gameCounter);
 
 // link to study
 // https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion

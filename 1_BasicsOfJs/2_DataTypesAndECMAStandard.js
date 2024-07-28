@@ -1,4 +1,4 @@
-"use strict" ;  // it is used to give the instruction to javascript engine because we use new javascript 
+"use strict" ;  // it is used to give the instruction to javascript engine to use a  new javascript 
 
 // Data Types in JS
 
@@ -35,6 +35,11 @@ console.log(id === anotherId);
 // Array, Objects, Functions
 
 const heros = ["shaktiman", "naagraj", "doga"];
+
+heros[2] = "Kamal"
+heros.push("Anmol")
+// console.log(heros)
+
 let myObj = {
     name: "hitesh",
     age: 22,
@@ -44,4 +49,4 @@ const myFunction = function(){
     console.log("Hello world");
 }
 
-console.log(typeof anotherId);
+console.log(typeof myFunction);
