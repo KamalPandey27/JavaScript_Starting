@@ -13,7 +13,7 @@ const obj = {
     year_passed : ["istyear" , "Secondyear" , "Now3rdyear"],
     [sym] : "ObjSymbol" // this is the sytanx of use the symbol in object and also access this object symbol key with the use of obj[sym]
 }
-
+// console.log(typeof obj)
 // console.log(obj)
 
 console.log(obj.college_name) // first method to access the object keys
