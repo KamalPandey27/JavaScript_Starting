@@ -53,3 +53,33 @@ const users = [
 console.log(Object.keys(tinderUser))
 console.log(Object.values(tinderUser))
 
+
+// Object Destructuring
+
+const obj5 = {
+    city:"Panipat",
+    area : "Desraj colong",
+    state:"haryana"
+
+}
+
+const {state} = obj5 
+const {city:cities} = obj5
+
+console.log(cities)
+
+
+// Api data format
+
+// {
+//     "nama" : "Kamal",
+//     "ID" : 228,
+//     "Cityname" : "Panipat"
+// }
+
+[
+    {},
+    {},
+    {}
+]
+
