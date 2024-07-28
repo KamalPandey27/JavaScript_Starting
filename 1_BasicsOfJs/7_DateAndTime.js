@@ -17,10 +17,10 @@ console.log(date.toDateString())
 console.log(date.toLocaleDateString())
 console.log(date.toLocaleString())
 
-setInterval(() => {
-    let date = new Date()
-    console.log(date.toLocaleTimeString())
-}, 1000);
+// setInterval(() => {
+//     let date = new Date()
+//     console.log(date.toLocaleTimeString())
+// }, 1000);
 
 
 // If you want to create your own date 
