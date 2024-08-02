@@ -16,8 +16,18 @@ form.addEventListener('submit', (e) => {
     }
     else {
         let bmi = (weight / ((height / 100) * (height / 100))).toFixed(2)
-        result.innerHTML = `Your BMI is : ${bmi}`
+        if (bmi < 18.6) {
+            result.innerHTML = `Your BMI is : ${bmi} And you are under Weight`
+        }
+        else if (bmi > 18.6 && bmi < 24.9) {
+            result.innerHTML = `Your BMI is : ${bmi} And you are in Normal Weight`
+        }
+        if (bmi > 24.9) {
+            result.innerHTML = `Your BMI is : ${bmi} And you are Over Weight`
+        }
     }
+
+
 })
 
 
