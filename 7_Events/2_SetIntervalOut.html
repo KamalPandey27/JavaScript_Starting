@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+    <div class="container">
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+    </div>
+
+    <script>
+        let start = document.getElementById('start')
+        let stop = document.getElementById('stop')
+        let timeinterval
+        
+        const changename = () => {
+            console.log("KAMAL")
+        }
+
+
+        start.addEventListener("click", (e) => {
+             timeinterval = setInterval(changename, 1000);
+        })
+        
+        stop.addEventListener("click", () => {
+            clearInterval(timeinterval)
+        })
+
+
+
+        // const timeout = setTimeout(() => {
+        //     console.log("KAMAL")
+        // }, 2000);
+
+        // clearTimeout(timeout)
+        // clearInterval(timeinterval)
+    </script>
+</body>
+
+</html>
