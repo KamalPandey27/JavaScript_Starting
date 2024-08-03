@@ -19,7 +19,8 @@ promiseOne.then((value)=>{
 
 
 let fetchapi = fetch('https://jsonplaceholder.typicode.com/users')
-//  fetch always executed first because it is a special  queue or priority queue
+// fetch always executed first because it is a special  queue or priority queue but when it takes 
+// more time then all other code then the other code  executed in first
 // fetch response a promise
 //  to see all working of fetch read documentation
 fetchapi.then((value) => {
