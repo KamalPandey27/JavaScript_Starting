@@ -46,7 +46,7 @@ return `${anyobject.name} ${anyobject.price}`
 }
 
 let result2 = userdetails(user)
-// console.log(result2)
+console.log(result2)
 
 
 // pass a array in function

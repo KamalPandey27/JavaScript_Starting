@@ -16,9 +16,11 @@ const obj = {
 // console.log(typeof obj)
 // console.log(obj)
 
-console.log(obj.college_name) // first method to access the object keys
-console.log(obj[ "Course name" ]) // second method this method is used when in object a key is define in the form of string
-console.log(obj[sym])// To access a symbol of object 
+// console.log(obj.college_name) // first method to access the object keys
+
+// console.log(obj[ "Course name" ]) // second method this method is used when in object a key is define in the form of string
+
+// console.log(obj[sym])// To access a symbol of object 
 
 obj.email = "kamal@chatgpt.com"
 // Object.freeze(obj) // It is used to freeze our object when we does not want anyone change my object 

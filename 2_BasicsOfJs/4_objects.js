@@ -27,7 +27,7 @@ const obj4 = {5: "a", 6: "b"}
 // const obj3 = {...obj1 , ...obj2 , ...obj4} // first method to combine an object
 // console.log(obj3)
  
-const obj3 = Object.assign({},obj1, obj2 , obj4)  // second method to combine an object
+// const obj3 = Object.assign({},obj1, obj2 , obj4)  // second method to combine an object
 // console.log(obj3)
 
 
