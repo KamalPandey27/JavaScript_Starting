@@ -1,4 +1,6 @@
 JavaScript Execution Context – How JS Works Behind the Scenes
+when a js can run the JavaScript code then it will always take all the code in global execution context in which all value of program can initialize to this method object
+after this process the js will devide to code in two part one is memory phase where the all varible and method will store and define then and other is a execution context part where the progarm can run and executes the variale value
 
 Question :- What is the Execution Context?
 Answer :- When the JavaScript engine scans a script file, it makes an environment called the Execution Context that handles the entire transformation and execution of the code.

@@ -1,11 +1,10 @@
 const user = {
-    username: "Kamal",
-    message: function m(){
-        console.log(this.username)
-        console.log(this) // it will give then current context
-    }
-}
-
+  username: "Kamal",
+  message: function m() {
+    console.log(this.username);
+    console.log(this); // it will give the current context
+  },
+};
 
 // user.message()
 // user.username = "Anmol"
@@ -13,9 +12,9 @@ const user = {
 
 // console.log(this)
 
-function chai(){
-    let username = "hitesh"
-    console.log(this.username);
+function chai() {
+  let username = "hitesh";
+  console.log(this.username);
 }
 
 // chai()
@@ -30,7 +29,6 @@ function chai(){
 //     console.log(this);
 // }
 
-
 // chai()
 
 // const addTwo = (num1, num2) => {
@@ -41,13 +39,6 @@ function chai(){
 
 // const addTwo = (num1, num2) => ( num1 + num2 )
 
-const addTwo = (num1, num2) => ({username: "hitesh"})
+const addTwo = (num1, num2) => ({ username: "hitesh" });
 
-
-console.log(addTwo(3, 4))
-
-
-
-
-
-
+console.log(addTwo(3, 4));
