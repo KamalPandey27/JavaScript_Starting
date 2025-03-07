@@ -1,49 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOM : </title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM :</title>
+  </head>
+  <body>
     <ul class="box">
-        <li>JavaScript</li>
+      <li>JavaScript</li>
     </ul>
-</body>
-<script>
-    function additem(item){
-        let li = document.createElement('li')
-        // li.setAttribute("class",'list-1')
-        li.innerHTML = `${item}`
-        document.querySelector(".box").appendChild(li)
+  </body>
+  <script>
+    function additem(item) {
+      let li = document.createElement("li");
+      // li.setAttribute("class",'list-1')
+      li.innerHTML = `${item}`;
+      document.querySelector(".box").appendChild(li);
     }
-    additem('Python')
-    additem('ReactJs')
+    additem("Python");
+    additem("ReactJs");
 
-//  add item in optimize way
+    //  add item in optimize way
 
-    function additemopt(item){
-        const li = document.createElement('li')
-        li.appendChild(document.createTextNode(item))
-        document.querySelector(".box").appendChild(li)
+    function additemopt(item) {
+      const li = document.createElement("li");
+      li.appendChild(document.createTextNode(item));
+      document.querySelector(".box").appendChild(li);
     }
-additemopt("Nextjs")
+    additemopt("Nextjs");
 
-//  edit
+    //  edit
 
-const li = document.querySelector('.box').getElementsByTagName('li')[1]
-// li.innerText = "MongoDb"
-// li.innerHTML = ""
-// li.textContent = "Ruby"
+    const li = document.querySelector(".box").getElementsByTagName("li")[1];
+    // li.innerText = "MongoDb"
+    // li.innerHTML = ""
+    // li.textContent = "Ruby"
 
-// let licreate = document.createElement('li')
-// licreate.appendChild(document.createTextNode("Java"))
-// li.replaceWith(licreate)
+    // let licreate = document.createElement('li')
+    // licreate.appendChild(document.createTextNode("Java"))
+    // li.replaceWith(licreate)
 
-// Remove
+    // Remove
 
-const liremove = document.querySelector('.box').getElementsByTagName('li')[2]
-liremove.remove()
-
-</script>
+    const liremove = document
+      .querySelector(".box")
+      .getElementsByTagName("li")[2];
+    liremove.remove();
+  </script>
 </html>
