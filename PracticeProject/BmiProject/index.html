@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bmi Project With Tailwind css</title>
+    <link rel="stylesheet" href="./src/output.css" />
+  </head>
+  <body>
+    <div
+      class="w-full h-screen flex justify-center flex-col gap-4 items-center bg-blue-400"
+    >
+      <form
+        class="bg-amber-700 w-80 flex justify-center items-center flex-col gap-4 p-5 rounded"
+      >
+        <div class="">
+          <label for="weight" class="text-lg font-semibold cursor-pointer"
+            >Weight</label
+          >
+          <input
+            type="number"
+            id="weight"
+            placeholder="Weight in kg"
+            class="bg-white p-1 rounded cursor-pointer"
+          />
+        </div>
+        <div>
+          <label for="height" class="text-lg font-semibold cursor-pointer"
+            >Height</label
+          >
+          <input
+            type="text"
+            id="height"
+            placeholder="Height in metre"
+            class="bg-white p-1 rounded cursor-pointer"
+          />
+        </div>
+        <button
+          type="submit"
+          class="cursor-pointer bg-blue-300 px-2 py-1 rounded"
+        >
+          Calculate
+        </button>
+      </form>
+      <div class="text-xl" id="result"></div>
+      <div class="text-xl">
+        Underweight : 16 - 18.5 <br />
+        Normal : 18.5 - 25 <br />
+        Overweight : 25 - 30
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
