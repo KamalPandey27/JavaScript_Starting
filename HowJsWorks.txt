@@ -30,3 +30,18 @@ When execution of the current function is complete, then the JavaScript engine w
 
 JavaScript  is a synchronous languagae
 js can run in a single thread
+
+🔹 Synchronous Nature
+By default, JavaScript executes code line by line, waiting for each line to finish before moving to the next. This is known as blocking behavior.
+
+🔹 Asynchronous Capabilities
+JavaScript can also handle asynchronous tasks, meaning it can initiate a task and move on without waiting for it to complete. This is achieved using:
+
+Callbacks
+Promises
+async/await
+APIs like setTimeout, fetch, and others
+
+
+🔹 What Does Single-Threaded Mean in JavaScript?
+A single-threaded language means that JavaScript can execute one task at a time in a single sequence. It has one call stack that handles one command after another, without any parallel execution.
