@@ -45,3 +45,15 @@ APIs like setTimeout, fetch, and others
 
 🔹 What Does Single-Threaded Mean in JavaScript?
 A single-threaded language means that JavaScript can execute one task at a time in a single sequence. It has one call stack that handles one command after another, without any parallel execution.
+
+
+
+ => Stack Memory (Primitive) 	LIFO (Last In, First Out)
+ Primitive types have fixed and small sizes.
+Stack memory stores data sequentially and automatically cleans up when variables go out of scope.
+
+=> heap memory 
+it will store the array , object and give the orignal reference of the element when needed and we will modified this 
+
+
+
