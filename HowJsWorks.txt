@@ -55,5 +55,11 @@ Stack memory stores data sequentially and automatically cleans up when variables
 => heap memory 
 it will store the array , object and give the orignal reference of the element when needed and we will modified this 
 
+What is XML? (eXtensible Markup Language)
+XML is a markup language used to store and transport data in a structured and readable format. Unlike HTML, which defines how data should be displayed, XML focuses on what data is. It is both human-readable and machine-readable.
 
+What is AJAX? (Asynchronous JavaScript and XML)
+AJAX is a technique that enables web pages to be updated asynchronously by exchanging small amounts of data with the server in the background. This means parts of a web page can update without needing to reload the entire page.
 
+XML: A format for storing and transporting data.
+AJAX: A technique to fetch data from a server asynchronously using JavaScript, often utilizing XML or JSON.
