@@ -4,20 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>XML API REQUEST :</title>
+    <link rel="stylesheet" href="src/output.css" />
   </head>
-  <div id="mainContainer">
-    <div>
-      <img src="" alt="" id="img" />
+  <main class="w-[250px] bg-gray-500 text-white m-auto">
+    <div id="mainContainer">
+      <div class="w-full">
+        <img src="" alt="" id="img" class="w-full" />
+      </div>
+      <div>
+        <span id="follwers">Follwers : </span>
+        <span id="following">Following : </span>
+      </div>
     </div>
-    <div>
-      <span id="follwers">Follwers : </span>
-      <span id="following">Following : </span>
-    </div>
-  </div>
-  <form id="form">
-    <input type="text" id="input" placeholder="Enter Username" />
-    <button type="submit">Submit</button>
-  </form>
+    <form id="form">
+      <input type="text" id="input" placeholder="Enter Username" />
+      <button type="submit">Submit</button>
+    </form>
+  </main>
   <body>
     <script src="GetDataByXmlRequest.js"></script>
   </body>

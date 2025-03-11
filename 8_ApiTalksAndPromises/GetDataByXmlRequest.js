@@ -2,7 +2,7 @@ let img = document.getElementById("img");
 let followers = document.getElementById("follwers");
 let following = document.getElementById("following");
 let form = document.getElementById("form");
-let username = "kamalpandey27";
+let username = "HimanshRohilla";
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   let input = document.getElementById("input");
