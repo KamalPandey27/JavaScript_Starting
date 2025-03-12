@@ -19,7 +19,7 @@ function islogged(username = "Unknown User") {
 }
 
 let result1 = islogged();
-// console.log(result1)
+// console.log(result1);
 
 // When we want to pass multiple value in function example a cart in shopping web app
 

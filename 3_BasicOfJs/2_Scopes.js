@@ -11,7 +11,7 @@ if (true) {
   console.log(a);
   console.log(b);
 }
-// console.log(a)
+// console.log(a);
 // console.log(b)
 // console.log(c)
 
@@ -24,7 +24,7 @@ function one() {
     const website = "youtube";
     console.log(username);
   }
-  //   console.log(website);
+  // console.log(website);
 
   two();
 }
@@ -44,13 +44,13 @@ if (true) {
 
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
-console.log(addone(5));
+// console.log(addone(5));
 
 function addone(num) {
   return num + 1;
 }
 
-addTwo(5);
+// addTwo(5);
 // this will give  a error because we initialize a function in variable and a variable can not access before initialization
 const addTwo = function (num) {
   return num + 2;
