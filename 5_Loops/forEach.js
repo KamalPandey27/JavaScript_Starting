@@ -30,5 +30,6 @@ const arr2 = [
 ];
 
 arr2.forEach((e) => {
-  console.log(e.language, e.library);
+  // console.log(e.language, e.library);
+  console.log(e);
 });

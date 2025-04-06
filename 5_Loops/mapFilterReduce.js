@@ -20,12 +20,12 @@ let edition = books.filter((items) => {
 
 //   console.log(edition)
 
-// edition.forEach((bk)=>{
-//     let i = 0
-//         for (const key in bk) {
-//            console.log(key , bk[key])
-//         }
-// })
+edition.forEach((bk) => {
+  let i = 0;
+  for (const key in bk) {
+    console.log(key, bk[key]);
+  }
+});
 
 // Maps
 
@@ -40,7 +40,7 @@ const newNums = myNumers
 
 // console.log(newNums);
 
-// Reduce  
+// Reduce
 
 const shoppingCart = [
   {
