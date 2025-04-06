@@ -203,7 +203,5 @@ sayHello.call(person); // Output: Hello, Kamal
 | Inside an arrow function   | `this` from the surrounding scope |
 | Inside an event listener   | The element that triggered the event |
 
----
 
-Would you like a deeper explanation in a specific language? 😊
 

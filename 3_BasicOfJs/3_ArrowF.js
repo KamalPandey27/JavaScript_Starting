@@ -2,11 +2,11 @@ const user = {
   username: "Kamal",
   message: function m() {
     console.log(this.username);
-    console.log(this); // it will give the current context
+    // console.log(this); // it will give the current context
   },
 };
 
-// user.message()
+user.message();
 // user.username = "Anmol"
 // user.message()
 
@@ -17,12 +17,12 @@ function chai() {
   console.log(this.username);
 }
 
-// chai()
+// chai();
 
 // const chai = function () {
-//     let username = "hitesh"
-//     console.log(this.username);
-// }
+//   let username = "hitesh";
+//   console.log(this.username);
+// };
 
 // const chai =  () => {
 //     let username = "hitesh"
