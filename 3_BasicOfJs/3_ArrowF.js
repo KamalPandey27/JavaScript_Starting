@@ -17,19 +17,19 @@ function chai() {
   console.log(this.username);
 }
 
-// chai();
+chai();
 
 // const chai = function () {
 //   let username = "hitesh";
 //   console.log(this.username);
 // };
 
-// const chai =  () => {
-//     let username = "hitesh"
-//     console.log(this);
-// }
+const chai = () => {
+  let username = "hitesh";
+  console.log(this);
+};
 
-// chai()
+chai();
 
 // const addTwo = (num1, num2) => {
 //     return num1 + num2

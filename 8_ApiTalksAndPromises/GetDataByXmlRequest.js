@@ -4,6 +4,7 @@ let following = document.getElementById("following");
 let form = document.getElementById("form");
 let username = "HimanshRohilla";
 form.addEventListener("submit", (e) => {
+  
   e.preventDefault();
   let input = document.getElementById("input");
   username = input.value.trim();

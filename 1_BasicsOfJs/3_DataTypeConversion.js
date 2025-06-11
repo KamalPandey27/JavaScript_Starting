@@ -34,8 +34,8 @@ let num = "33";
 
 // *********************** Operations ***********************
 
-let value = 3;
-let negValue = -value;
+// let value = 3;
+// let negValue = -value;
 // console.log(negValue);
 
 // console.log(2+2);

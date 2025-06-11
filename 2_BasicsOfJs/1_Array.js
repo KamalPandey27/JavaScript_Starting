@@ -16,7 +16,7 @@ let arr2 = new Array("k", "a", "m", "a", "l");
 // console.log(arr1.length)
 
 let joinarr = arr1.join(); // It will give the array in the form of string
-console.log(joinarr);
+console.log(typeof joinarr);
 
 // Difference Between Slice and splice in array
 
