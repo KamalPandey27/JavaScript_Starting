@@ -31,3 +31,5 @@ let min = Math.min(...arr);
 let ar2 = [1, 2, 3, 4, 5, 6];
 let max = Math.max(...ar2);
 // console.log(max)
+
+console.log(Math.floor(Math.random() * 10) + 10);

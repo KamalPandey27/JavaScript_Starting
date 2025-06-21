@@ -1,5 +1,4 @@
 let date = new Date();
-
 console.log(date);
 console.log(date.getTime());
 console.log(date.getDate());
@@ -45,3 +44,24 @@ let newDate = new Date();
 newDate.toLocaleString("default", {
   weekday: "long",
 });
+
+// const birth = new Date(2003, 4, 12);
+const birth = new Date("2003-5-12");
+console.log(birth.toDateString());
+
+const currentDate = Date.now();
+const pastDate = new Date("03-29-2005");
+
+const Between = currentDate - pastDate.getTime();
+const days = Math.floor(Between / (1000 * 60 * 60 * 24));
+const years = Math.floor(days / 365.25);
+const remaningDays = Math.floor(days - years * 365.25);
+const month = Math.floor(remaningDays / 30.44);
+const exactDays = Math.floor(remaningDays - month * 30.44);
+console.log(Math.floor(22 - years, 1 - month, 9 - exactDays));
+
+const date1 = new Date("2003-05-12");
+const date2 = new Date(); // current date
+
+const diffInMs = date2 - date1; // milliseconds
+console.log("Difference in ms:", diffInMs);
