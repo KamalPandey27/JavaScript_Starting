@@ -43,6 +43,7 @@ let newDate = new Date();
 
 newDate.toLocaleString("default", {
   weekday: "long",
+  
 });
 
 // const birth = new Date(2003, 4, 12);
@@ -65,3 +66,7 @@ const date2 = new Date(); // current date
 
 const diffInMs = date2 - date1; // milliseconds
 console.log("Difference in ms:", diffInMs);
+
+
+
+console.log(2+2)
