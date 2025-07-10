@@ -24,6 +24,6 @@ let arr3 = arr1.slice(1, 3); // slice only give the copy of array
 // console.log("Orignal Array" , arr1)
 // console.log("slice value",arr3)
 
-let arr4 = arr1.splice(1, 3); // splice  give the element  of orignal array and update the array
+let arr4 = arr1.splice(1, 3); // splice  give the element  of orignal array and update the array and also include the last value
 // console.log("Orignal Array", arr1);
 // console.log("slice value", arr4);

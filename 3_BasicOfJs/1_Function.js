@@ -27,7 +27,7 @@ function cart(...price) {
   return price;
 }
 //It can give a array and this operator is a rest operator but when we use this operator in obj and array then its name is spread operator
-// console.log( cart(300 , 2313 , 3211, 24532))
+console.log(cart(300, 2313, 3211, 24532));
 
 // *Pass an object in function
 

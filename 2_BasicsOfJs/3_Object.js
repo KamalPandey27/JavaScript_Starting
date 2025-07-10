@@ -34,6 +34,6 @@ obj.greetingTwo = function () {
   let myname = "kamal";
   console.log(`Hello JS , ${this.myname}`);
 };
-
-console.log(obj.greeting());
-console.log(obj.greetingTwo());
+obj.greeting();
+// console.log(obj.greeting());
+// console.log(obj.greetingTwo());

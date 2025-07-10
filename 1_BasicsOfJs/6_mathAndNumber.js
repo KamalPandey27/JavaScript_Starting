@@ -32,4 +32,10 @@ let ar2 = [1, 2, 3, 4, 5, 6];
 let max = Math.max(...ar2);
 // console.log(max)
 
-console.log(Math.floor(Math.random() * 10) + 10);
+// console.log(Math.floor(Math.random() * 10) + 10);
+// console.log(Math.pow(5, 2));
+
+const minV = 10;
+const maxV = 20;
+
+console.log(Math.floor(Math.random() * (maxV - minV + 1) + 10));

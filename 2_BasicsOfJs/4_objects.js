@@ -56,7 +56,7 @@ console.log(Object.values(tinderUser));
 const obj5 = {
   city: "Panipat",
   area: "Desraj colong",
-  state: "haryana",
+  state: "haryana", 
 };
 
 const { state } = obj5;
