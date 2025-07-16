@@ -23,7 +23,7 @@ let edition = books.filter((items) => {
 edition.forEach((bk) => {
   let i = 0;
   for (const key in bk) {
-    console.log(key, bk[key]);
+    // console.log(key, bk[key]);
   }
 });
 
