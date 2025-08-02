@@ -12,13 +12,13 @@ const books = [
   { title: "Book Nine", genre: "Non-Fiction", publish: 1981, edition: 1989 },
 ];
 
-//   we use filter method because a foreach loop can not return a value
+// we use filter method because a foreach loop can not return a value
 
 let edition = books.filter((items) => {
   return items.edition >= 2000 && items.publish >= 2000;
 });
 
-//   console.log(edition)
+//   console.log(edition) 
 
 edition.forEach((bk) => {
   let i = 0;

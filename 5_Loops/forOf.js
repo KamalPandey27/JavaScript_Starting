@@ -23,7 +23,7 @@ const object = {
 };
 
 for (const [k] of object) {
-//   console.log(k);
+  //   console.log(k);
 }
 
 // Maps
@@ -37,5 +37,5 @@ map.set("IN", "India");
 // console.log(map);
 
 for (const [key, value] of map) {
-  console.log(key, ':-', value);
+  console.log(key, ":-", value);
 }
