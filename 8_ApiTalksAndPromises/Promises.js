@@ -23,6 +23,7 @@ let fetchapi = fetch("https://jsonplaceholder.typicode.com/users");
 // more time then all other code then the other code  executed in first
 // fetch response a promise
 //  to see all working of fetch read documentation
+
 fetchapi
   .then((value) => {
     return value.json();
@@ -69,17 +70,16 @@ consumePromiseFive();
 // promiseOne.then(function(){
 //     console.log("Promise consumed");
 // })
-
-// new Promise(function(resolve, reject){
-//     setTimeout(function(){
-//         console.log("Async task 2");
-//         resolve()
-//     }, 1000)
-
-// }).then(function(){
-//     console.log("Async 2 resolved");
-// })
-
+// console.log("kamal tested");
+// new Promise(function (resolve, reject) {
+//   setTimeout(function () {
+//     console.log("Async task 2");
+//     resolve();
+//   }, 2000);
+// }).then(function () {
+//   console.log("Async 2 resolved");
+// });
+// console.log("kamal tested");
 // const promiseThree = new Promise(function(resolve, reject){
 //     setTimeout(function(){
 //         resolve({username: "Chai", email: "chai@example.com"})
